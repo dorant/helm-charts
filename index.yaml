@@ -1,12 +1,23 @@
 apiVersion: v1
 entries:
+  k8s-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2019-12-06T16:11:49.414096905+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 38fcbed2fcb1b1fd6c3d04b70967af1e3a0b557ba93b486d54f2e89bff2d2fa0
+    name: k8s-operator
+    type: application
+    urls:
+    - https://dorant.github.io/helm-charts/k8s-operator-0.1.0.tgz
+    version: 0.1.0
   simple-http-server:
   - apiVersion: v1
-    created: "2019-12-06T14:10:49.237225219+01:00"
+    created: "2019-12-06T16:11:49.414386527+01:00"
     description: A Helm chart for deploying the simple-http-server
     digest: a9175283690f5e1c47a0335028f1bf6ee2952e965a637c7d2530b06d2561a77c
     name: simple-http-server
     urls:
     - https://dorant.github.io/helm-charts/simple-http-server-1.0.0.tgz
     version: 1.0.0
-generated: "2019-12-06T14:10:49.236424981+01:00"
+generated: "2019-12-06T16:11:49.413691438+01:00"
